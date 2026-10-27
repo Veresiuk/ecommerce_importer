@@ -1,0 +1,10 @@
+product_id,name,category,price,quantity
+101,Wireless Mouse,electronics,25.99,15
+102,Python Cookbook,books,45.00,3
+103,,electronics,99.99,10
+104,Desk Lamp,home,30.50,-2
+abc,Office Chair,furniture,120.00,5
+106,Winter Jacket,clothing,89.90,2
+107,Coffee Maker,kitchen,55.00,8
+108,Mechanical Keyboard,electronics,-15.00,20
+109,T-Shirt,clothing,19.99,50
