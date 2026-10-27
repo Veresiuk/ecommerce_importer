@@ -26,7 +26,7 @@ def export_products_json(products: Iterable[Product], path: Path) -> int:
 
         # Атомарна підміна цільового файлу
         temporary.replace(path)
-    except (OSError, TypeError) as error:
+    except Exception as error:
         temporary.unlink(missing_ok=True)
         raise DataExportError(f"Failed to export data to {path}") from error
 

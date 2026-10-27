@@ -9,7 +9,7 @@ processing:
     - books
     - clothing
     - home
-  skip_invalid: false
+  skip_invalid: true 
 logging:
   level: INFO
   path: logs/application.log
