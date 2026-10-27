@@ -1,0 +1,15 @@
+input:
+  path: data/products.csv
+output:
+  path: output/products.json
+processing:
+  min_stock_threshold: 5
+  allowed_categories:
+    - electronics
+    - books
+    - clothing
+    - home
+  skip_invalid: false
+logging:
+  level: INFO
+  path: logs/application.log

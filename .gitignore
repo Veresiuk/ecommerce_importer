@@ -1,0 +1,10 @@
+Set-Content -Path ".gitignore" -Value @"
+__pycache__/
+*.py[cod]
+*$py.class
+*.tmp
+.vscode/
+.idea/
+logs/*.log
+output/*.json
+"@
